@@ -146,11 +146,14 @@ SELECT *
 FROM table1
 CROSS JOIN table2;
 
-  
+--PostgreSQL specific commands 
+--Login command
+psql --username=freecodecamp --dbname=postgres
 
-
-
-
-
+--\l: list all databases
+--\c: connect to a database
+--\d: lists all tables in the current database
+--\d table_name: display the structure of a specific table
+--\q: Exit the client
 
 
